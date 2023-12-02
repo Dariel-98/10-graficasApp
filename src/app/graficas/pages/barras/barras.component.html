@@ -1,1 +1,18 @@
-<p>barras works!</p>
+<div class="row">
+  <div class="col">
+    <div style="display: block">
+      <canvas
+        baseChart
+        class="chart"
+        [data]="barChartData"
+        [options]="barChartOptions"
+        [type]="barChartType"
+        (chartHover)="chartHovered($event)"
+        (chartClick)="chartClicked($event)"
+      >
+      </canvas>
+
+      <button (click)="randomize()">Update</button>
+    </div>
+  </div>
+</div>
