@@ -21,25 +21,25 @@ export class BarrasComponent {
       {
         data: [65, 59, 80, 81, 56, 55, 40],
         label: 'Series A',
-        backgroundColor: '#FAEC52',
+        backgroundColor: '#9752FA',
         hoverBackgroundColor: 'blue',
       },
       {
         data: [28, 48, 40, 19, 86, 27, 90],
         label: 'Series B',
-        backgroundColor: '#9DFA52',
+        backgroundColor: '#FA52E6',
         hoverBackgroundColor: 'blue',
       },
       {
         data: [28, 48, 40, 19, 86, 27, 90],
         label: 'Series C',
-        backgroundColor: '#E3FA52',
+        backgroundColor: '#CE52FA',
         hoverBackgroundColor: 'blue',
       },
     ],
   };
 
-  // events
+  // event
   public chartClicked({
     event,
     active,
